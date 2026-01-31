@@ -16,7 +16,7 @@ body {
     font-family: poppins, sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 2000px;
+    min-height: 3000px;
 }
 
 /* navbar */
@@ -152,17 +152,17 @@ body {
 }
 
 /* about */
-.about {
+.about , .menu {
     padding: 8rem 7% 1.4rem;
 }
 
-.about h2 {
+.about h2, .menu h2 {
     font-size: 2.6rem;
     text-align: center;
     margin-bottom: 3rem;
 }
 
-.about h2 span {
+.about h2 span, .menu h2 span {
     color: var(--primary);
 }
 
@@ -195,8 +195,44 @@ body {
     font-weight: 100;
 }
 
-/* media queries */
+/* menu */
+.menu h2 {
+    margin-bottom: 1rem;
+}
+.menu p {
+    text-align: center;
+    max-width: 60rem;
+    margin: auto;
+    line-height: 1.5;
+    font-weight: 100;
+}
 
+.menu .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.menu .row .menu-card {
+    width: 25%;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.menu .row .menu-card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.menu .row .menu-card .menu-card-title {
+    margin: 1rem 0 0.5rem;
+}
+
+
+
+/* media queries */
 /* laptop */
 @media (max-width: 1366px) {
     html{
@@ -260,6 +296,10 @@ body {
     .about .row .content h3 {
         margin-top: 1rem;
         font-size: 2rem;
+    }
+
+    .menu .row .menu-card {
+        width: 50%;
     }
 }  
 
