@@ -45,3 +45,5 @@ This project is suitable for:
 - UI/UX concept demonstration
 - Product landing page prototype
 - Practicing core frontend fundamentals
+
+Live Preview : https://kuntolabz.github.io/coffee-shop/
