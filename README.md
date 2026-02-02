@@ -46,4 +46,4 @@ This project is suitable for:
 - Product landing page prototype
 - Practicing core frontend fundamentals
 
-Live Preview : https://kuntolabz.github.io/coffee-shop/
+Live Preview : https://kuntolabz.github.io/web-design-coffee-shop/
